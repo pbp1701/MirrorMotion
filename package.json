@@ -1,1 +1,26 @@
-{\n  "name": "MirrorMotion",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "start": "vite",\n    "build": "vite build",\n    "serve": "vite preview"\n  },\n  "dependencies": {\n    "react": "^18.0.0",\n    "react-dom": "^18.0.0",\n    "three": "^0.140.0",\n    "@pixiv/three-vrm": "^1.0.0",\n    "@mediapipe/holistic": "^0.1.1630081549",\n    "kalidokit": "^1.0.0"\n  }\n}
+{
+  "name": "mirrormotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/holistic": "^0.5.1675471629",
+    "@pixiv/three-vrm": "^1.0.0",
+    "@react-three/fiber": "^8.17.10",
+    "@tensorflow/tfjs": "^4.22.0",
+    "kalidokit": "^1.1.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.151.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.10"
+  }
+}
